@@ -41,6 +41,7 @@ Delete a task: Click the delete icon next to a task to remove it from the list.
 Filter tasks: Use the filter buttons to view all tasks, only active tasks, or only completed tasks.
 
 5.**Project Structure**
+```
 React-Todo-app/
 ├── public/
 │   ├── index.html
@@ -56,7 +57,7 @@ React-Todo-app/
 ├── package.json
 ├── README.md
 └── ...
-
+```
 src/components/ - Contains the individual React components used in the app.
 App.js - The main application component.
 index.js - The entry point for the React application.
