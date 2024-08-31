@@ -1,6 +1,9 @@
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import { createLogger } from './components/logger'; 
+
+const logger = createLogger();
 
 ReactDOM.render(
   <StrictMode>
@@ -8,4 +11,4 @@ ReactDOM.render(
   </StrictMode>,
   document.getElementById('root')
 );
-createLogger
+logger.log('Application has started');
