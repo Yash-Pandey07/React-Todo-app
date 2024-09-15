@@ -8,6 +8,7 @@ function Note(props) {
     <p>
         {props.content}
     </p>
+    <button>DELETE</button>
     </div>)
 }
 
