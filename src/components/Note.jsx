@@ -1,4 +1,6 @@
 import React from "react";
+import DeleteIcon from "@mui/icons-material/Delete";
+import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 
 function Note(props) {
 
@@ -12,7 +14,7 @@ function Note(props) {
         <p>
             {props.content}
         </p>
-        <button onClick={handleDelete}>DELETE</button>
+        <button onClick={handleDelete}><DeleteIcon /></button>
     </div>)
 }
 
